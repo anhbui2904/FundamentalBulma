@@ -1,0 +1,92 @@
+Bai 1 About Bulma
+
+Dau tien vao link nay de hoc bulma
+https://bulma.io/documentation/columns/basics/
+
+o link nay
+https://bulma.io/documentation/modifiers/
+sau do vao syntax
+https://bulma.io/documentation/modifiers/syntax/
+se ra nhieu cai khac
+
+Bai 2 Bulma Document Tour
+
+Chua thay gi
+
+Bai 3 Get Ready
+
+vao bulma -> documentation -> overview -> start -> Starter template
+
+Bai 4 Hero layout and Form
+
+Muc dich la de tao ra mot layout va form cho dung chuan
+
+vao bulma -> documentation -> layout -> hero
+
+Chon trong do cai Fullheight title
+sau do xoa het <body> </body> di
+Copy phan Fullheight title vao va se thay ket qua
+
+Xoa het phan nay di
+
+<h1 class="title">
+Fullheight title
+</h1>
+<h2 class="subtitle">
+Fullheight subtitle
+</h2>
+
+Thay the bang cai nay
+
+<div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+      <div class="column">
+      Xin moi login  
+      </div>     
+      </div>
+    </div>
+  </div>
+
+Se thay ket qua
+Muon no co nho lai thi them cai nay vao nua
+<div class="column is-6-tablet is-6-desktop is-6-widescreen">
+  
+Bay gio them anh vao thi cho cai nay vao
+<div class="columns is-centered">
+<div class="column is-6-tablet is-6-desktop is-6-widescreen">
+<div class="field has-text-centered">
+<img src="https://pbs.twimg.com/profile_images/598192263626301440/BwPMAyDK_400x400.jpg">
+</div>
+
+De tao form login ta vao documentation -> form -> general
+copy phan login vao trong do
+
+muon sua nut login ta sua lai thanh
+<button class="button is-danger is-fullwidth">\
+
+muon them bat cu cai gi cung phai cho vao <div class="field">
+
+vao form -> select se gap duoc mot dropdown
+de them mot o check box chung ta them cai nay
+<label for="" class="checkbox">
+<input type="checkbox"> Remember Me
+
+bai 5 button and icon
+
+vao documentation -> elements -> button
+xuong phia duoi co cai with font awesomeicons
+
+copy doan nay vao phia ben duoi
+
+<button class="button is-primary">
+<span class="icon">
+<i class="fab fa-twitter"></i>
+</span>
+<span>Twitter</span>
+</button>
+
+khi them is-fullwidth vao cuoi button is-primary thanh button is-primary is-fullwidth
+cai nut Twitter se bi keo dai ra
+
+vao trang fontawesome.com
